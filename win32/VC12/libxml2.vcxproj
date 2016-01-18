@@ -178,16 +178,6 @@
     <ClInclude Include="..\..\libxml.h" />
     <ClInclude Include="config.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\libiconv-1.14.vc12\windows\vc12\iconv.vcxproj">
-      <Project>{bec03130-a64c-48f8-863c-52da83cfb3ae}</Project>
-      <Private>true</Private>
-      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
-      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
-      <LinkLibraryDependencies>true</LinkLibraryDependencies>
-      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
