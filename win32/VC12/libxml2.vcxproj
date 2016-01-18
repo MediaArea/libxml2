@@ -172,6 +172,7 @@
     <ClCompile Include="..\..\xpointer.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\config.h" />
     <ClInclude Include="..\..\elfgcchack.h" />
     <ClInclude Include="..\..\libxml.h" />
   </ItemGroup>
