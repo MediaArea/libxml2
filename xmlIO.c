@@ -3823,7 +3823,7 @@ xmlParserGetDirectory(const char *filename) {
 
     if (filename == NULL) return(NULL);
 
-#if defined(WIN32) && !defined(__CYGWIN__)
+#if defined(_WIN32) && !defined(__CYGWIN__)
 #   define IS_XMLPGD_SEP(ch) ((ch=='/')||(ch=='\\'))
 #else
 #   define IS_XMLPGD_SEP(ch) (ch=='/')
